@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Test-only dependency: FastAPI's TestClient requires httpx at import time.
+# Not a runtime dependency of the application itself.
+httpx>=0.23,<1

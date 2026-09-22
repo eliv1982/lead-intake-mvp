@@ -12,3 +12,7 @@ venv/
 # Local runtime data
 data/leads.db
 logs/events.log
+
+# Local review/course artifacts (not intended for the repository)
+lead_intake_mvp_demo_and_review.mp4
+practice_report_lead_intake_mvp.docx
